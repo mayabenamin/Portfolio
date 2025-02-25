@@ -61,7 +61,7 @@
 
   #sidebyside {
     
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
@@ -97,18 +97,6 @@
     position: relative;
   }
 
-  #absolutecontainer {
-    width: 70%;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    border: black;
-    background-color: rgb(223, 223, 223);
-    top: 350px
-    
-
-  }
 
   #left-container {
     width: 70%;
