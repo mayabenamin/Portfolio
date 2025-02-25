@@ -71,6 +71,7 @@
     flex-direction: row;
     justify-content: center;
     
+    
   }
 
   #right-container {
@@ -94,7 +95,17 @@
     border: black;
     background-color: rgb(223, 223, 223);
     height: 550px;
-    position: relative;
+  }
+
+  #med-container  {
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: black;
+    background-color: rgb(223, 223, 223);
+    height: 650px;
   }
 
 
@@ -224,6 +235,23 @@
   text-decoration: none;
   color: white;
  }
+
+ .fullportfolio { 
+  padding-top: 5px;
+  width: 50%;
+  text-align: center;
+  opacity: 2;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+ }
+
+ .fullportfolio a {
+  text-decoration: none;
+  color: white;
+ }
+
 
 
   @media (orientation: portrait) {
