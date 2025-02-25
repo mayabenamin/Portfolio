@@ -14,7 +14,7 @@
 
 .nav-button a{
     text-decoration: none;
-    color: rgb(31, 31, 97);
+    color: #004A80;
     font: Noto Serif;
 
 }
@@ -26,13 +26,13 @@
 
 #head {
     font: Noto Serif;
-    color: rgb(31, 31, 97) 
+    color: #004A80 
 }
 
 .body a{
     font: Noto Serif;
     margin: auto;
-    color: rgb(31, 31, 97)
+    color: #004A80
 }
 
 #img-container {
@@ -105,7 +105,7 @@
     padding-top: 150px;
     font-size: 18;
     font: Noto Serif;
-    color: rgb(31, 31, 97)
+    color: #004A80
 
   }
 
@@ -114,7 +114,7 @@
     padding-top: 0px;
     font-size: 18;
     font: Noto Serif;
-    color: rgb(36, 36, 98);
+    color: #004A80;
     margin: center;
 
   }
@@ -143,7 +143,7 @@
 
   h2 {
     Font: Noto Serif;
-    color: rgb(31, 31, 97);
+    color: #004A80;
     padding-left: 110px;
     font-size: 30;
 
@@ -151,16 +151,17 @@
 
   h3 {
     Font: Noto Serif;
-    color: rgb(31, 31, 97);
+    color: #004A80;
   }
 
   h4 {
     Font: Noto Serif;
-    color: rgb(31, 31, 97);
+    color: #004A80;
   }
 
   @media (orientation: portrait) {
     #content {
+      flex-direction: column;
       width: 100%;
     }
   }
