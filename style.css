@@ -1,7 +1,7 @@
 #navbar { 
     color: #000000;
     padding: 3px;
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     font-size: 20px;
     text-decoration: none;
     display: flex;
@@ -15,7 +15,7 @@
 .nav-button a{
     text-decoration: none;
     color: #004A80;
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
 
 }
 
@@ -25,14 +25,18 @@
 }
 
 #head {
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     color: #004A80 
 }
 
 .body a{
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     margin: auto;
     color: #004A80
+}
+
+#grid {
+  
 }
 
 #img-container {
@@ -56,7 +60,8 @@
   }
 
   #sidebyside {
-    width: 70%;
+    
+    width: 90%;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
@@ -65,6 +70,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     
   }
 
@@ -89,6 +95,20 @@
     border: black;
     background-color: rgb(223, 223, 223);
     height: 550px;
+    position: relative;
+  }
+
+  #absolutecontainer {
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: black;
+    background-color: rgb(223, 223, 223);
+    top: 350px
+    
+
   }
 
   #left-container {
@@ -105,7 +125,7 @@
     padding-left: 10px;
     padding-top: 150px;
     font-size: 18;
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     color: #004A80
 
   }
@@ -114,7 +134,7 @@
     padding-left: 10px;
     padding-top: 0px;
     font-size: 18;
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     color: #004A80;
     margin: center;
 
@@ -128,7 +148,7 @@
     overflow: hidden;
     border-right; 5px solid black;
     font-size: 18;
-    font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     width: 0;
     white-space: nowrap;
     animation:
@@ -143,7 +163,7 @@
 
 
   h2 {
-    Font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     color: #004A80;
     padding-left: 110px;
     font-size: 30;
@@ -151,14 +171,58 @@
   }
 
   h3 {
-    Font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     color: #004A80;
   }
 
   h4 {
-    Font: Noto Serif;
+    font-family: 'Noto Serif', serif;
     color: #004A80;
   }
+
+ .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #004A80;
+  text-align: center;
+  line-height: 50px;
+  transition: height 0.3s ease-in-out;
+  font-size: 18;
+  font-family: 'Noto Serif', serif;
+  color: #efefef;
+ }
+
+ .footer:hover {
+  height: 500px;
+}
+
+ .email { 
+  padding-top: 5px;
+  width: 30%;
+  text-align: left;
+  padding-left: 50px;
+  opacity: 2;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+  color: #efefef;
+  transition: opacity 0.3s ease-in-out;
+ }
+ 
+ .linkedin { 
+  padding-top: 5px;
+  padding-right: 50px;
+  width: 30%;
+  text-align: right;
+  opacity: 2;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+ }
+
 
   @media (orientation: portrait) {
     #content {
