@@ -35,14 +35,19 @@
     color: #004A80
 }
 
-#grid {
-  
-}
 
 #img-container {
     width: 70%;
-    margin-right: 10px;
     margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: black;
+    background-color: rgb(223, 223, 223);
+  }
+
+  #img-container {
+    width: 80%;
+    margin-right: 10px;
     padding: 10px;
     border-radius: 20px;
     border: black;
@@ -69,6 +74,43 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
+    
+  }
+
+#outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+  #inner-left
+  {
+    
+    width: 50%;
+    margin: auto;
+    padding-left: 300px;
+    border-radius: 20px;
+    border: rgb(255, 252, 252);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+
+  #inner-right
+  {
+    
+    width: 50%;
+    padding-right: 200px;
+    border-radius: 20px;
+    border: rgb(255, 252, 252);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     
     
@@ -252,6 +294,7 @@
   color: white;
  }
 
+ 
 
 
   @media (orientation: portrait) {
